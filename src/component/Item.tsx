@@ -1,6 +1,6 @@
 import React from "react";
-import Todo from "../models/todos";
 import classes from "./Item.module.css";
+import Todo from "../models/todos";
 
 const Item: React.FC<{ item: Todo; onDeleteTodo: (id: string) => void }> = (
   props
